@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "electron-flask-template"
+version = "0.1.0"
+description = ""
+authors = ["Shogo Okajima <okajima-shohgo@comjo.co.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.11"
+Flask = "^2.0.3"
+pyinstaller = "^4.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+pyproject-flake8 = "^0.0.1-alpha.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
