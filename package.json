@@ -37,7 +37,7 @@
     "author": "nekobean",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^17.1.2",
+        "electron": "^18.3.7",
         "electron-builder": "^22.14.13"
     },
     "dependencies": {
